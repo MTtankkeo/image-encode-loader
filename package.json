@@ -1,9 +1,22 @@
 {
+  "name": "image-encode-loader",
+  "main": "./dist/index.js",
+  "types": "./dist/types",
+  "repository": "https://github.com/MTtankkeo/html-image-loader",
+  "keywords": [
+    "webpack",
+    "wbepack-loader",
+    "image",
+    "image-loader",
+    "html",
+    "jsx"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "watch": "tsc -p tsconfig.json --watch"
   },
   "devDependencies": {
+    "@types/node": "^22.5.2",
     "@types/webpack": "^5.28.5",
     "typescript": "^5.5.4"
   }

@@ -1,6 +1,6 @@
 <div align="center">
   <img width="200px" src="https://github.com/user-attachments/assets/3933881e-5d7f-4675-a4d1-1e67d7d0778e">
-  <h1>Image Encode Webpack Loader</h1>
+  <h1>HTML Image Webpack Loader</h1>
   <table>
         <thead>
           <tr>
