@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@types/webpack": "^5.28.5",
+    "typescript": "^5.5.4"
+  }
+}
