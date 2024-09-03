@@ -5,7 +5,7 @@ interface EncodeLoaderOptions {
     jsx: boolean;
 }
 
-/** This function is the entry point for `html-image-loader` */
+/** This function is the entry point for `image-encode-loader` */
 export function ImageEncodeLoader(this: LoaderContext<EncodeLoaderOptions>, source: Buffer) {
     const callback = this.async();
 
