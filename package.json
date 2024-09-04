@@ -3,7 +3,7 @@
   "description": "This webpack loader that uses Sharp to encode images into web-friendly formats like WebP and AVIF without any external dependencies.",
   "author": "Dev Ttangkong",
   "license": "MIT",
-  "version": "1.0.0-bata1",
+  "version": "1.0.0-bata2",
   "main": "./dist/index.js",
   "types": "./dist/types",
   "repository": "https://github.com/MTtankkeo/html-image-loader",

@@ -8,7 +8,7 @@ function ImageEncodeLoader(resource) {
     const options = this.getOptions();
     const srcPath = this.resourcePath;
     const format = options.format;
-    if (format) {
+    if (format == null) {
         // Skip the encoding process if the format is not provided.
         return callback(null, resource);
     }
