@@ -1,6 +1,7 @@
 {
   "name": "image-encode-loader",
-  "version": "1.0.0-alpha1",
+  "description": "This webpack loader that uses Sharp to encode images into web-friendly formats like WebP and AVIF without any external dependencies.",
+  "version": "1.0.0-alpha2",
   "main": "./dist/index.js",
   "types": "./dist/types",
   "repository": "https://github.com/MTtankkeo/html-image-loader",
