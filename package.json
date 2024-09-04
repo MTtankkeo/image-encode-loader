@@ -1,5 +1,6 @@
 {
   "name": "image-encode-loader",
+  "version": "1.0.0-alpha1",
   "main": "./dist/index.js",
   "types": "./dist/types",
   "repository": "https://github.com/MTtankkeo/html-image-loader",
@@ -7,9 +8,16 @@
     "webpack",
     "wbepack-loader",
     "image",
-    "image-loader",
-    "html",
-    "jsx"
+    "image-format",
+    "image-encode",
+    "sharp",
+    "webp",
+    "avif",
+    "tiff",
+    "heif",
+    "jpeg",
+    "png",
+    "gif"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -19,5 +27,8 @@
     "@types/node": "^22.5.2",
     "@types/webpack": "^5.28.5",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
   }
 }
