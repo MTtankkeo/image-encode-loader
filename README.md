@@ -14,8 +14,8 @@
 # Introduction
 This webpack loader that uses [Sharp](https://sharp.pixelplumbing.com/) to encode images into web-friendly formats like WebP and AVIF without any external dependencies.
 
-> __Commonly supported formats are as follows__:<br>
-> webp, avif, tiff, heif, jpeg, png, gif
+> __Commonly supported formats__:<br>
+> `webp`, `avif`, `tiff`, `heif`, `jpeg`, `png`, `gif`
 
 ## Install by NPM
 To install this package in your project, enter the following command.
