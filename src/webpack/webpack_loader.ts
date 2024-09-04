@@ -13,7 +13,7 @@ export function ImageEncodeLoader(this: LoaderContext<EncodeLoaderOptions>, reso
     const srcPath = this.resourcePath;
     const format = options.format;
 
-    if (format) {
+    if (format == null) {
         // Skip the encoding process if the format is not provided.
         return callback(null, resource);
     }
