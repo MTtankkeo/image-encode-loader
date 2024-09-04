@@ -14,7 +14,7 @@
 # Introduction
 This webpack loader that uses Sharp to encode images into web-friendly formats like WebP and AVIF without any external dependencies.
 
-# Install by NPM
+## Install by NPM
 To install this package in your project, enter the following command.
 
 > When you want to update this package, enter `npm update image-encode-loader --save` in the terminal to run it.
@@ -23,7 +23,7 @@ To install this package in your project, enter the following command.
 npm install image-encode-loader --save-dev
 ```
 
-# How to apply this loader?
+## How to apply this loader?
 This example based on Webpack 5. Additionally, this loader does not provide any image output functionality.
 
 ```cjs
