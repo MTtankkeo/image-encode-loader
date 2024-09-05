@@ -54,3 +54,14 @@ module.exports = {
     },
 }
 ```
+
+## Usage
+To get the final compiled path of an image in JS/JSX, the image should be imported as a module.
+
+```jsx
+import imagePath from "../asset/images/example.png";
+
+function Example() {
+    return <img src={imagePath} />
+}
+```
