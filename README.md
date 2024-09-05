@@ -43,7 +43,7 @@ module.exports = {
                     loader: "image-encode-loader",
                     options: {
                         // This format has the best compression rate at the moment.
-                        format: "avif"
+                        format: "avif",
                         generator: {
                             filename: "images/[name].[ext]"
                         }
